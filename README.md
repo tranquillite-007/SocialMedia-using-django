@@ -1,3 +1,4 @@
-# Code-Alpha-Multiplayer-GameServer-using-django-and-websocket-
+# Code-Alpha-SocialMedia-using-django-and-websocket-
 
-Game server using django and websocket
+-Social media platform
+-using django 
