@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <div class="nav-bar">
+            <div class="logo">
+                Tranquillite
+            </div>
+            <form action="/search" method="POST">
+                {% csrf_token %}
+                <input type="text" name="username" placeholder="Search for username..">&nbsp; &nbsp;
+                <button type="submit"><i class="fa fa-search fa-1x"></i></button>
+            </form>
+            <div class="upload-pic">
+                
+            </div>
+        </div>
+    </header>
+</body>
+</html>
